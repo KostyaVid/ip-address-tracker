@@ -37,7 +37,7 @@ const IDAddressTracker = () => {
   }
 
   useEffect(() => {
-    if (track[1].value != 'none')
+    if (track[1].value !== 'none')
       fetch(
         `https://api.mapbox.com/geocoding/v5/mapbox.places/${track[1].value}.json?access_token=pk.eyJ1IjoiY29uc3RhdCIsImEiOiJjbDV4dW1uMW0wMXBhM2RvOThuemswbXd2In0.bun1EO46QgaaCWmy6_mNYg`,
       )
