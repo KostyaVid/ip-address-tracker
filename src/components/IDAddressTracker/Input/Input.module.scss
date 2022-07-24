@@ -1,0 +1,35 @@
+.input {
+  height: 58px;
+  width: 497px;
+  border-bottom-left-radius: 13px;
+  border-top-left-radius: 13px;
+  padding: 0 25px;
+  color: var(--VeryDarkGray);
+  @media (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.errorIP {
+  color: red;
+}
+
+.button {
+  background-color: var(--VeryDarkGray);
+  height: 58px;
+  width: 60px;
+  border-bottom-right-radius: 13px;
+  border-top-right-radius: 13px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    background-color: var(--DarkGray);
+    transition: all 0.1s ease;
+  }
+  &:active {
+    -webkit-box-shadow: 0px 0px 12px 4px rgba(43, 43, 43, 0.4) inset;
+    -moz-box-shadow: 0px 0px 12px 4px rgba(43, 43, 43, 0.4) inset;
+    box-shadow: 0px 0px 12px 4px rgba(43, 43, 43, 0.4) inset;
+  }
+}
