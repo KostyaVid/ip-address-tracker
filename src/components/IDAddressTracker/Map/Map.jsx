@@ -1,5 +1,7 @@
 import React, { useRef, useEffect, useState } from 'react';
-import mapboxgl from 'mapbox-gl';
+/* eslint-disable */
+import mapboxgl from '!mapbox-gl';
+/* eslint-enable */
 import s from './Map.module.scss';
 
 mapboxgl.accessToken =
